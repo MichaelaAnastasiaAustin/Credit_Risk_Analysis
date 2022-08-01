@@ -11,7 +11,7 @@ Credit risk is an inherently unbalanced classification problem, as good loans si
 
 ## Results
 
-To evaluate the performance of the six machine learning models, we compared the balanced accuracy scores and the precision and recall scores of each model:
+To evaluate the performance of the six machine learning models, we compared the balanced accuracy, precision, and recall scores of each model:
 
 Naive Random Oversampling
 ![naive](https://github.com/MichaelaAnastasiaAustin/Credit_Risk_Analysis/blob/main/images/naive.png)
@@ -59,4 +59,4 @@ Easy Ensemble AdaBoost Classifier
 
 
 ## Summary 
-All in all, the Easy Ensemble AdaBoost Classifier has the highest balanced accuracy score -- 92.5%. Along with an accuracy rate that is significantly higher than the other models, it's recall rate is high. For high-risk credits, the Easy Ensemble AdaBoost Classifier has a recall of 91%. However, the model's precision rate is only 7%. This means that it detects nearly all high-risk credit, but falsely detects many low-risk credits as high-risk. Furthermore, the model's F-score got high-risk credit is 0.13. For these reasons, I would not advise the bank to use any of the machine learning models.
+All in all, the Easy Ensemble AdaBoost Classifier has the highest balanced accuracy score -- 92.5%. Along with an accuracy rate that is significantly higher than the other models, it's recall rate is high. For high-risk credits, the Easy Ensemble AdaBoost Classifier has a recall of 91%. However, the model's precision rate for high-risk credit is only 7%. This means that it detects nearly all high-risk credit, but falsely detects many low-risk credits as high-risk. Furthermore, the model's F-score for high-risk credit is 0.13. For these reasons, I would not advise the bank to use any of the machine learning models.
